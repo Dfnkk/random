@@ -7,31 +7,31 @@
 ## Importing
 
 ```JavaScript
-const random = require('random')
+import { random } from 'random';
 ```
 
 # Usage
 
 ```JavaScript
-random.int(num)
+random.int(num);
 ```
 
 return's a integer that is bettween 1 and num
 
 ```JavaScript
-random.gen()
+random.gen();
 ```
 
 return's male or female
 
 ```JavaScript
-random.choice(array)
+random.choice(array);
 ```
 
 return's a random part of the array
 
 ```JavaScript
-random.float3(max)
+random.float3(max);
 ```
 
 return a number to the thousanths less the max (possible to get a two digit if the thousanths is 0)

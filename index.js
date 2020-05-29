@@ -27,4 +27,4 @@ random.float3 = (max) => {
 
 console.log(random.float3(1))
 
-module.exports.makeitred = random;
+module.exports.random = random;
