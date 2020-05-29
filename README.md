@@ -2,7 +2,7 @@
 
 ## Intallation
 
-`npm i random --save`
+`npm i randomly --save`
 
 ## Importing
 
