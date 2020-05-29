@@ -2,7 +2,7 @@
 
 ## Intallation
 
-`npm i randomly --save`
+`npm i randomgener --save`
 
 ## Importing
 
