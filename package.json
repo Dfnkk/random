@@ -1,0 +1,22 @@
+{
+  "name": "random",
+  "version": "1.0.0",
+  "description": "a random library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dfnkk/random.git"
+  },
+  "keywords": [
+    "random"
+  ],
+  "author": "Nikhil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dfnkk/random/issues"
+  },
+  "homepage": "https://github.com/Dfnkk/random#readme"
+}
