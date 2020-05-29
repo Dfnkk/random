@@ -36,4 +36,9 @@ random.float3(max);
 
 return a number to the thousanths less the max (possible to get a two digit if the thousanths is 0)
 
+```JavaScript
+random.will(array, whatyouwant);
+```
+
+return a part of the array though there is a higher change of getting `whatyouwant`;
 

@@ -25,6 +25,20 @@ random.float3 = (max) => {
     return x;
 };
 
-console.log(random.float3(1))
+random.will = (array, lenOfWill) => {
+    lenOfWill = lenOfWill - 1;
+    let choice = random.int(array.length) - 1;
+    if ((choice - 1) === lenOfWill || choice === lenOfWill || (choice + 1) === lenOfWill) {
+        let rand = random.int(2);
+        if (rand === 1) {
+            return array[lenOfWill];
+        } else {
+            return array[choice];
+        }
+    } else {
+        return array[choice];
+    }
+};
+
 
 module.exports.random = random;
