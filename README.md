@@ -41,4 +41,5 @@ random.will(array, whatyouwant);
 ```
 
 return a part of the array though there is a higher change of getting `whatyouwant`;
+`whatyouwant` is a length in the array that starts at 1 instead of 0
 
