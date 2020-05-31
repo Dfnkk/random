@@ -40,5 +40,9 @@ random.will = (array, lenOfWill) => {
     }
 };
 
+random.int0 = (max) => {
+    return (Math.floor(Math.random() * max));
+};
+
 
 module.exports.random = random;

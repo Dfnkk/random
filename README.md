@@ -17,10 +17,10 @@ import { random } from 'random';
 # Usage
 
 ```JavaScript
-random.int(num);
+random.int(max);
 ```
 
-return's a integer that is bettween 1 and num
+return's a integer that is bettween 1 and max
 
 ```JavaScript
 random.gen();
@@ -46,4 +46,11 @@ random.will(array, whatyouwant);
 
 return a part of the array though there is a higher change of getting `whatyouwant`;
 `whatyouwant` is a length in the array that starts at 1 instead of 0
+
+
+```JavaScript
+random.int0(max)
+```
+
+return's a integer number between 0 and max
 
