@@ -1,5 +1,9 @@
 # A random module!
 
+# NPM
+
+[randomgener](https://www.npmjs.com/package/randomgener)
+
 ## Intallation
 
 `npm i randomgener --save`
