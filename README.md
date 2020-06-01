@@ -20,7 +20,7 @@ import { random } from 'random';
 random.int(max);
 ```
 
-return's a integer that is bettween 1 and max
+return's a integer that is between 1 and max including them
 
 ```JavaScript
 random.gen();
@@ -52,5 +52,5 @@ return a part of the array though there is a higher change of getting `whatyouwa
 random.int0(max)
 ```
 
-return's a integer number between 0 and max
+return's a integer number between 0 and max including them
 
