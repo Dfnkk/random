@@ -11,7 +11,7 @@
 ## Importing
 
 ```JavaScript
-import { random } from 'random';
+import { random } from 'randomgener';
 ```
 
 # Usage
