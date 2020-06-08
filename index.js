@@ -45,4 +45,4 @@ random.int0 = (max) => {
 };
 
 
-module.exports.random = random;
+export { random }
