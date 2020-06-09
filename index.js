@@ -44,5 +44,4 @@ random.int0 = (max) => {
     return (Math.floor(Math.random() * max));
 };
 
-
-export { random }
+module.exports.random = random;
