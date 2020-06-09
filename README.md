@@ -11,6 +11,13 @@
 ## Importing
 
 ```JavaScript
+const rand = require('randomgener');
+```
+note: if using this way then you will have to put rand at the start of every cammand
+
+or
+
+```JavaScript
 import { random } from 'randomgener';
 ```
 
